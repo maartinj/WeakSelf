@@ -66,7 +66,7 @@ class WeakSelfSecondScreenViewModel: ObservableObject {
     
     func getData() {
         
-        DispatchQueue.global().async {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 500) {
             self.data = "NEW DATA!!!!"
         }
     }
