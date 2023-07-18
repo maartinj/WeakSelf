@@ -11,7 +11,7 @@ import SwiftUI
 struct WeakSelfBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WeakSelfBootcamp()
         }
     }
 }

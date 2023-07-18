@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E425E50D2A65A2F000571EF1 /* WeakSelfBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425E50C2A65A2F000571EF1 /* WeakSelfBootcampApp.swift */; };
-		E425E50F2A65A2F000571EF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425E50E2A65A2F000571EF1 /* ContentView.swift */; };
+		E425E50D2A65A2F000571EF1 /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425E50C2A65A2F000571EF1 /* AppEntry.swift */; };
+		E425E50F2A65A2F000571EF1 /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425E50E2A65A2F000571EF1 /* WeakSelfBootcamp.swift */; };
 		E425E5112A65A2F100571EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E425E5102A65A2F100571EF1 /* Assets.xcassets */; };
 		E425E5152A65A2F100571EF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E425E5142A65A2F100571EF1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E425E5092A65A2F000571EF1 /* WeakSelfBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeakSelfBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E425E50C2A65A2F000571EF1 /* WeakSelfBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcampApp.swift; sourceTree = "<group>"; };
-		E425E50E2A65A2F000571EF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E425E50C2A65A2F000571EF1 /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
+		E425E50E2A65A2F000571EF1 /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 		E425E5102A65A2F100571EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E425E5122A65A2F100571EF1 /* WeakSelfBootcamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeakSelfBootcamp.entitlements; sourceTree = "<group>"; };
 		E425E5142A65A2F100571EF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,8 +52,8 @@
 		E425E50B2A65A2F000571EF1 /* WeakSelfBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				E425E50C2A65A2F000571EF1 /* WeakSelfBootcampApp.swift */,
-				E425E50E2A65A2F000571EF1 /* ContentView.swift */,
+				E425E50C2A65A2F000571EF1 /* AppEntry.swift */,
+				E425E50E2A65A2F000571EF1 /* WeakSelfBootcamp.swift */,
 				E425E5102A65A2F100571EF1 /* Assets.xcassets */,
 				E425E5122A65A2F100571EF1 /* WeakSelfBootcamp.entitlements */,
 				E425E5132A65A2F100571EF1 /* Preview Content */,
@@ -139,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E425E50F2A65A2F000571EF1 /* ContentView.swift in Sources */,
-				E425E50D2A65A2F000571EF1 /* WeakSelfBootcampApp.swift in Sources */,
+				E425E50F2A65A2F000571EF1 /* WeakSelfBootcamp.swift in Sources */,
+				E425E50D2A65A2F000571EF1 /* AppEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
